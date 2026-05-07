@@ -32,7 +32,7 @@ export default function Contact() {
         </div>
 
         <div className={styles.qrBlock}>
-          <img src="/wechat-qr.png" alt="微信二维码" className={styles.qr} />
+          <img src="/personal-homepage/wechat-qr.png" alt="微信二维码" className={styles.qr} />
           <span className={styles.qrLabel}>扫码添加微信</span>
         </div>
       </motion.div>

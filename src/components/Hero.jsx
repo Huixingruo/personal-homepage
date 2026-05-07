@@ -10,7 +10,7 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <img src="/avatar.png" alt="李双林" className={styles.avatar} />
+        <img src="/personal-homepage/avatar.png" alt="李双林" className={styles.avatar} />
         <h1 className={styles.name}>李双林</h1>
         <p className={styles.title}>东南大学 & 深圳河套学院 · 电子信息博士</p>
         <p className={styles.interests}>强化学习 · 深度学习 · 人工智能</p>
