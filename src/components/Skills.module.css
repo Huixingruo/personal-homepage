@@ -1,0 +1,96 @@
+.section {
+  padding: 5rem 2rem;
+  background: var(--bg-secondary);
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.heading {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
+.gpaBar {
+  position: relative;
+  height: 28px;
+  background: #e2e8f0;
+  border-radius: 14px;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+}
+
+.gpaFill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent-indigo), var(--accent-cyan));
+  border-radius: 14px;
+}
+
+.gpaText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.rank {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+}
+
+.rank strong {
+  color: var(--accent-indigo);
+}
+
+.courses {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.course {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem 0.75rem;
+  background: var(--bg-primary);
+  border-radius: 6px;
+  font-size: 0.85rem;
+}
+
+.score {
+  font-weight: 600;
+  color: var(--accent-indigo);
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--tag-color);
+  background: color-mix(in srgb, var(--tag-color) 12%, transparent);
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
