@@ -25,8 +25,8 @@ const projects = [
       '获得特等奖提名 F 奖（Top 2% 全球）',
     ],
     links: [
-      { label: '📄 获奖证书', url: '/2025美赛F奖.pdf' },
-      { label: '📝 竞赛论文', url: '/2500439.pdf' },
+      { label: '📄 获奖证书', url: '/personal-homepage/mcm-certificate.pdf' },
+      { label: '📝 竞赛论文', url: '/personal-homepage/mcm-paper.pdf' },
     ],
     color: 'var(--accent-cyan)',
   },
