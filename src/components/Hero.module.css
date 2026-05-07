@@ -34,6 +34,12 @@
   margin-bottom: 0.25rem;
 }
 
+.subtitle {
+  font-size: 0.95rem;
+  opacity: 0.8;
+  margin-bottom: 0.25rem;
+}
+
 .interests {
   font-size: 0.95rem;
   opacity: 0.8;
