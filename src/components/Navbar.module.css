@@ -25,11 +25,20 @@
 .link {
   font-size: 0.9rem;
   font-weight: 500;
-  color: var(--text-secondary);
+  color: rgba(255, 255, 255, 0.85);
   transition: color 0.2s;
 }
 
 .link:hover,
 .link.active {
+  color: #fff;
+}
+
+.scrolled .link {
+  color: var(--text-secondary);
+}
+
+.scrolled .link:hover,
+.scrolled .link.active {
   color: var(--accent-indigo);
 }
