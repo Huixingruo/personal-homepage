@@ -24,6 +24,10 @@ const projects = [
     results: [
       '获得特等奖提名 F 奖（Top 2% 全球）',
     ],
+    links: [
+      { label: '📄 获奖证书', url: '/2025美赛F奖.pdf' },
+      { label: '📝 竞赛论文', url: '/2500439.pdf' },
+    ],
     color: 'var(--accent-cyan)',
   },
   {
@@ -35,6 +39,9 @@ const projects = [
     results: [
       '外循环：LLM 自动生成稠密奖励函数',
       '内循环：监测-干预-模仿的实时增强链路',
+    ],
+    links: [
+      { label: '🔗 GitHub 仓库', url: 'https://github.com/Huixingruo/LLM-Evolved-MARL-System-LEMS' },
     ],
     color: 'var(--accent-emerald)',
   },
@@ -73,6 +80,15 @@ export default function Projects() {
                     <li key={r}>{r}</li>
                   ))}
                 </ul>
+                {p.links && (
+                  <div className={styles.links}>
+                    {p.links.map(l => (
+                      <a key={l.label} href={l.url} target="_blank" rel="noopener noreferrer" className={styles.link}>
+                        {l.label}
+                      </a>
+                    ))}
+                  </div>
+                )}
               </div>
             </motion.div>
           ))}

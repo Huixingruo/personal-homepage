@@ -34,7 +34,7 @@ export default function Skills() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className={styles.heading}>学术成绩</h2>
+          <h2 className={styles.heading}>本科 · 学术成绩</h2>
           <div className={styles.gpaBar}>
             <div className={styles.gpaFill} style={{ width: '85.8%' }} />
             <span className={styles.gpaText}>GPA 4.29 / 5.00</span>
