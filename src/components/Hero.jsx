@@ -12,7 +12,7 @@ export default function Hero() {
       >
         <img src="/avatar.png" alt="李双林" className={styles.avatar} />
         <h1 className={styles.name}>李双林</h1>
-        <p className={styles.title}>东南大学博士预录取 · 电子信息</p>
+        <p className={styles.title}>东南大学 & 深圳河套学院 · 电子信息</p>
         <p className={styles.interests}>强化学习 · 深度学习 · 人工智能</p>
 
         <div className={styles.stats}>
