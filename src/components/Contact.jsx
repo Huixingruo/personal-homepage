@@ -21,7 +21,12 @@ export default function Contact() {
           </div>
           <div className={styles.item}>
             <span className={styles.label}>邮箱</span>
-            <span>jzgkpl84@163.com</span>
+            <a href="mailto:jzgkpl84@163.com" className={styles.link}>
+              jzgkpl84@163.com
+            </a>
+            <a href="mailto:B22050413@njupt.edu.cn" className={styles.link}>
+              B22050413@njupt.edu.cn
+            </a>
           </div>
           <div className={styles.item}>
             <span className={styles.label}>GitHub</span>
