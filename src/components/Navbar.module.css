@@ -42,3 +42,17 @@
 .scrolled .link.active {
   color: var(--accent-indigo);
 }
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 0.75rem 1rem;
+  }
+
+  .inner {
+    gap: 0.75rem;
+  }
+
+  .link {
+    font-size: 0.8rem;
+  }
+}

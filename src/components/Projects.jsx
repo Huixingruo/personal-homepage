@@ -3,45 +3,45 @@ import styles from './Projects.module.css';
 
 const projects = [
   {
-    title: '三维点云全息智慧感知',
-    role: '国创项目 · 技术负责人',
-    time: '2024.04 - 2025.06',
-    tags: ['深度学习', '点云处理', '语义分割', 'RandLA-Net'],
-    desc: '开发基于激光雷达和高清相机的电网铁塔健康监测系统。改进 RandLA-Net 算法，引入电力廊道分割预处理和多模态数据融合。',
+    title: 'Intelligent Perception with 3D Point Clouds',
+    role: 'National Undergraduate Innovation Program · Technical Lead',
+    time: 'Apr 2024 – Jun 2025',
+    tags: ['Deep Learning', 'Point Cloud Processing', 'Semantic Segmentation', 'RandLA-Net'],
+    desc: 'Developed a health monitoring system for power transmission towers using LiDAR and high-resolution cameras. Improved RandLA-Net with power corridor segmentation preprocessing and multimodal data fusion.',
     results: [
-      'mIoU 从 73.2% 提升至 76.0%，整体准确率 94.4%',
-      '二作发表 SCI Q3 论文（Sensors）',
-      '第一发明人申请发明专利（已受理）',
+      'Improved mIoU from 73.2% to 76.0%, with 94.4% overall accuracy',
+      'Published a paper in Sensors (SCI Q3) as second author',
+      'Filed an invention patent as first inventor; application accepted for processing',
     ],
     color: 'var(--accent-indigo)',
   },
   {
-    title: '2025 美国数学建模竞赛',
-    role: '编程手',
-    time: '2024.10 - 2025.02',
-    tags: ['CNN-LSTM', 'MLP 回归', 'CGO 优化', '数据可视化'],
-    desc: '构建多层次奥运奖牌预测模型，集成 CNN-LSTM、MLP 回归与 CGO 优化算法，预测 2028 洛杉矶奥运会奖牌分布。',
+    title: '2025 Mathematical Contest in Modeling (MCM)',
+    role: 'Team Programmer',
+    time: 'Oct 2024 – Feb 2025',
+    tags: ['CNN-LSTM', 'MLP Regression', 'CGO Optimization', 'Data Visualization'],
+    desc: 'Built a multilevel Olympic medal prediction model combining CNN-LSTM, MLP regression, and CGO optimization to forecast medal distributions at the Los Angeles 2028 Olympics.',
     results: [
-      '获得特等奖提名 F 奖（Top 2% 全球）',
+      'Awarded Finalist (F Award), placing in the top 2% worldwide',
     ],
     links: [
-      { label: '📄 获奖证书', url: '/personal-homepage/mcm-certificate.pdf' },
-      { label: '📝 竞赛论文', url: '/personal-homepage/mcm-paper.pdf' },
+      { label: '📄 Award Certificate', url: '/personal-homepage/mcm-certificate.pdf' },
+      { label: '📝 Competition Paper', url: '/personal-homepage/mcm-paper.pdf' },
     ],
     color: 'var(--accent-cyan)',
   },
   {
-    title: 'LLM 增强强化学习的集群协同决策',
-    role: '毕业设计',
-    time: '2025.10 – 至今',
-    tags: ['LLM', '多智能体强化学习', '奖励函数设计'],
-    desc: '针对多无人系统在强对抗、稀疏奖励环境下的协同围捕难题，设计 LLM 指导的层级化强化学习框架。',
+    title: 'LLM-Enhanced Reinforcement Learning for Multi-Agent Coordination',
+    role: 'Graduation Project',
+    time: 'Oct 2025 – Present',
+    tags: ['LLM', 'Multi-Agent Reinforcement Learning', 'Reward Function Design'],
+    desc: 'Designed an LLM-guided hierarchical reinforcement learning framework for cooperative pursuit and capture by multiple unmanned systems in highly adversarial environments with sparse rewards.',
     results: [
-      '外循环：LLM 自动生成稠密奖励函数',
-      '内循环：监测-干预-模仿的实时增强链路',
+      'Outer loop: LLM-generated dense reward functions',
+      'Inner loop: real-time enhancement through monitoring, intervention, and imitation',
     ],
     links: [
-      { label: '🔗 GitHub 仓库', url: 'https://github.com/Huixingruo/LLM-Evolved-MARL-System-LEMS' },
+      { label: '🔗 GitHub Repository', url: 'https://github.com/Huixingruo/LLM-Evolved-MARL-System-LEMS' },
     ],
     color: 'var(--accent-emerald)',
   },
@@ -51,7 +51,7 @@ export default function Projects() {
   return (
     <section id="projects" className={styles.section}>
       <div className={styles.container}>
-        <h2 className={styles.heading}>科研项目</h2>
+        <h2 className={styles.heading}>Research Projects</h2>
         <div className={styles.grid}>
           {projects.map((p, i) => (
             <motion.div

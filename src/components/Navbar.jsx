@@ -2,11 +2,11 @@ import { useState, useEffect } from 'react';
 import styles from './Navbar.module.css';
 
 const sections = [
-  { id: 'hero', label: '简介' },
-  { id: 'skills', label: '技能' },
-  { id: 'projects', label: '项目' },
-  { id: 'awards', label: '荣誉' },
-  { id: 'contact', label: '联系' },
+  { id: 'hero', label: 'About' },
+  { id: 'skills', label: 'Skills' },
+  { id: 'projects', label: 'Projects' },
+  { id: 'awards', label: 'Awards' },
+  { id: 'contact', label: 'Contact' },
 ];
 
 export default function Navbar() {

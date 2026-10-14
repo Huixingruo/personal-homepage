@@ -62,6 +62,7 @@
 .course {
   display: flex;
   justify-content: space-between;
+  gap: 0.75rem;
   padding: 0.4rem 0.75rem;
   background: var(--bg-primary);
   border-radius: 6px;
@@ -69,6 +70,7 @@
 }
 
 .score {
+  flex-shrink: 0;
   font-weight: 600;
   color: var(--accent-indigo);
 }
@@ -81,6 +83,8 @@
 
 .tag {
   display: inline-block;
+  max-width: 100%;
+  overflow-wrap: anywhere;
   padding: 0.35rem 0.85rem;
   border-radius: 999px;
   font-size: 0.85rem;

@@ -11,16 +11,16 @@ export default function Contact() {
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
       >
-        <h2 className={styles.heading}>联系方式</h2>
-        <p className={styles.subtitle}>欢迎交流与合作</p>
+        <h2 className={styles.heading}>Contact</h2>
+        <p className={styles.subtitle}>Let’s connect and collaborate.</p>
 
         <div className={styles.info}>
           <div className={styles.item}>
-            <span className={styles.label}>电话</span>
-            <span>17314840323</span>
+            <span className={styles.label}>Phone</span>
+            <a href="tel:+8617314840323" className={styles.link}>+86 173 1484 0323</a>
           </div>
           <div className={styles.item}>
-            <span className={styles.label}>邮箱</span>
+            <span className={styles.label}>Email</span>
             <a href="mailto:jzgkpl84@163.com" className={styles.link}>
               jzgkpl84@163.com
             </a>
@@ -37,8 +37,8 @@ export default function Contact() {
         </div>
 
         <div className={styles.qrBlock}>
-          <img src="/personal-homepage/wechat-qr.png" alt="微信二维码" className={styles.qr} />
-          <span className={styles.qrLabel}>扫码添加微信</span>
+          <img src="/personal-homepage/wechat-qr.png" alt="WeChat contact QR code" className={styles.qr} />
+          <span className={styles.qrLabel}>Scan to connect on WeChat</span>
         </div>
       </motion.div>
     </section>

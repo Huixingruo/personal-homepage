@@ -10,20 +10,21 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <img src="/personal-homepage/avatar.png" alt="李双林" className={styles.avatar} />
-        <h1 className={styles.name}>李双林</h1>
-        <p className={styles.title}>东南大学 & 深圳河套学院 · 电子信息博士生</p>
-        <p className={styles.subtitle}>南京邮电大学 · 自动化学士</p>
-        <p className={styles.interests}>强化学习 · 深度学习 · 人工智能</p>
+        <img src="/personal-homepage/avatar.png" alt="Shuanglin Li" className={styles.avatar} />
+        <h1 className={styles.name}>Shuanglin Li</h1>
+        <p className={styles.title}>PhD Student in Electronic Information</p>
+        <p className={styles.subtitle}>Southeast University & Hetao College, Shenzhen</p>
+        <p className={styles.subtitle}>Bachelor’s in Automation · Nanjing University of Posts and Telecommunications</p>
+        <p className={styles.interests}>Reinforcement Learning · Deep Learning · Artificial Intelligence</p>
 
         <div className={styles.stats}>
           <div className={styles.stat}>
             <span className={styles.statValue}>4.29</span>
-            <span className={styles.statLabel}>本科 GPA / 5</span>
+            <span className={styles.statLabel}>Undergraduate GPA / 5</span>
           </div>
           <div className={styles.stat}>
             <span className={styles.statValue}>2 / 138</span>
-            <span className={styles.statLabel}>本科专业排名</span>
+            <span className={styles.statLabel}>Undergraduate Class Rank</span>
           </div>
           <div className={styles.stat}>
             <span className={styles.statValue}>557</span>
@@ -32,7 +33,7 @@ export default function Hero() {
         </div>
 
         <a href="#projects" className={styles.cta}>
-          查看项目经历 ↓
+          Explore My Projects ↓
         </a>
       </motion.div>
     </section>
